@@ -1,0 +1,23 @@
+{
+  "name": "controle-notas",
+  "version": "1.0.0",
+  "description": "Projeto simples em TypeScript para controle de notas com 4 bimestres",
+  "main": "dist/index.js",
+ "scripts": {
+  "dev": "ts-node src/controleDeNotas/index.ts",
+  "build": "tsc",
+  "start": "node dist/controleDeNotas/index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.6.0"
+  }
+}
